@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ashwin.ashwindparmar.drupalapp.ListActivity">
+
+    <TextView
+        android:id="@+id/lblSessID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session ID:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/lblSessName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session Name:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/txtSessID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/txtSessName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="40dp" />
+</android.support.constraint.ConstraintLayout>
